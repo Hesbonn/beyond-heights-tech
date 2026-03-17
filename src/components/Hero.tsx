@@ -34,7 +34,7 @@ export const Hero = () => {
             repeat: Infinity, 
             ease: "linear" 
           }}
-          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070" 
+          src="/src/assets/kenya-service-3-rope-access.jpg" 
           alt="Modern Architecture"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"

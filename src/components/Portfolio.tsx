@@ -41,7 +41,7 @@ export const Portfolio = () => {
       <div className="container mx-auto px-6">
         <div className="mb-20">
           <span className="text-brand-electric font-mono text-xs tracking-widest uppercase mb-4 block">Our Impact</span>
-          <h2 className="text-5xl md:text-7xl font-bold mb-8">Trusted by Leaders</h2>
+          <h2 className="text-5xl md:text-7xl font-bold mb-8">Trusted by Kenyans</h2>
           <p className="text-xl text-ink/40 max-w-2xl">
             Our work speaks through the clients we serve. We partner with property managers, 
             building owners, and institutions to deliver expert vertical solutions.
