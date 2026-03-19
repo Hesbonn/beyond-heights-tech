@@ -14,37 +14,37 @@ export const AboutPage = () => {
       icon: <ShieldCheck size={28} />,
       title: "Certified Expertise",
       desc: "All personnel are certified and trained in the latest safety standards and industry best practices.",
-      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1000"
+      image: "src/assets/training.jpeg"
     },
     {
       icon: <Zap size={28} />,
       title: "Modern Equipment",
       desc: "We invest in state-of-the-art equipment and approved chemicals to deliver superior results.",
-      image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1000"
+      image: "src/assets/Team geared.jpeg"
     },
     {
       icon: <TrendingUp size={28} />,
       title: "Proven Track Record",
       desc: "Trusted by major institutions, property managers, and building owners across Kenya.",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000"
+      image: "src/assets/training.jpeg"
     },
     {
       icon: <ShieldCheck size={28} />,
       title: "Safety Compliance",
       desc: "Strict adherence to occupational health and safety standards in all operations.",
-      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1000"
+      image: "src/assets/training.jpeg"
     },
     {
       icon: <Clock size={28} />,
       title: "Reliable Service",
       desc: "Timely delivery and consistent quality across all projects, big or small.",
-      image: "https://images.unsplash.com/photo-1520209268518-9601fe652423?auto=format&fit=crop&q=80&w=1000"
+      image: "src/assets/kenya-service-4-window-detail.jpg"
     },
     {
       icon: <Smile size={28} />,
       title: "Client Satisfaction",
       desc: "Long-term partnerships built on trust, transparency, and measurable results.",
-      image: "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&q=80&w=1000"
+      image: "src/assets/kenya-service-5-interior-cleaning.jpg"
     }
   ];
 
@@ -83,7 +83,7 @@ export const AboutPage = () => {
     {
       name: "Eunice Mashaiti",
       role: "Founder & Operations Director",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=1000", // Placeholder for the uploaded image
+      image: "src/assets/Eunice Mashaiti.jpeg", // Placeholder for the uploaded image
       bio: "A visionary leader with over a decade of experience in specialized building maintenance and high-access solutions."
     }
   ];
@@ -125,7 +125,7 @@ export const AboutPage = () => {
             </motion.p>
             <div className="relative rounded-[3rem] overflow-hidden aspect-video glass">
               <img 
-                src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200" 
+                src="src/assets/Team geared.jpeg" 
                 alt="Office" 
                 className="w-full h-full object-cover opacity-60"
                 referrerPolicy="no-referrer"

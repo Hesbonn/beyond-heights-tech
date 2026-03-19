@@ -15,54 +15,82 @@ export const PortfolioPage = () => {
       id: 1,
       title: "Skyline Towers Restoration",
       category: "Facade Restoration",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000",
-      location: "New York, NY",
-      date: "2023",
+      image: "src/assets/kenya-service-4-window-detail.jpg",
+      location: "Nairobi, Kenya",
+      date: "2026",
       desc: "Complete facade cleaning and structural restoration of a 60-story commercial tower."
     },
     {
       id: 2,
       title: "Grand Atrium Maintenance",
       category: "Window Cleaning",
-      image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000",
-      location: "Chicago, IL",
-      date: "2023",
+      image: "src/assets/Beyond H 17.jpeg",
+      location: "Nairobi, Kenya",
+      date: "2025",
       desc: "Specialized internal glass cleaning for a complex geometric atrium structure."
     },
     {
       id: 3,
       title: "Industrial Complex Sealing",
       category: "Waterproofing",
-      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1000",
-      location: "Houston, TX",
-      date: "2022",
+      image: "src/assets/kenya-service-5-interior-cleaning.jpg",
+      location: "Nairobi, Kenya",
+      date: "2026",
       desc: "Large-scale membrane waterproofing for a 500,000 sq ft industrial facility."
     },
     {
       id: 4,
       title: "Heritage Plaza Fumigation",
       category: "Fumigation",
-      image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000",
-      location: "Boston, MA",
-      date: "2023",
+      image: "src/assets/kenya-service-5-interior-cleaning.jpg",
+      location: "Nairobi, Kenya",
+      date: "2026",
       desc: "Eco-friendly pest management for a historic residential complex."
     },
     {
       id: 5,
       title: "Bridge Inspection Services",
       category: "Height Access",
-      image: "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=1000",
-      location: "San Francisco, CA",
-      date: "2022",
+      image: "src/assets/Beyond H 8.jpeg",
+      location: "Nairobi, CBD",
+      date: "2026",
       desc: "Rope access structural inspection and minor repairs for a major suspension bridge."
     },
     {
       id: 6,
       title: "Solar Farm Maintenance",
       category: "Window Cleaning",
-      image: "https://images.unsplash.com/photo-1509391366360-fe5bb6583e2c?auto=format&fit=crop&q=80&w=1000",
-      location: "Phoenix, AZ",
-      date: "2023",
+      image: "src/assets/kenya-service-3-rope-access.jpg",
+      location: "Nairobi, CBD",
+      date: "2026",
+      desc: "Automated and manual cleaning solutions for a 50MW solar installation."
+    },
+
+    {
+      id: 7,
+      title: "Heritage Plaza Fumigation",
+      category: "Fumigation",
+      image: "src/assets/kenya-service-5-interior-cleaning.jpg",
+      location: "Nairobi, Kenya",
+      date: "2026",
+      desc: "Eco-friendly pest management for a historic residential complex."
+    },
+    {
+      id: 8,
+      title: "Bridge Inspection Services",
+      category: "Height Access",
+      image: "src/assets/Beyond H 8.jpeg",
+      location: "Nairobi, CBD",
+      date: "2026",
+      desc: "Rope access structural inspection and minor repairs for a major suspension bridge."
+    },
+    {
+      id: 9,
+      title: "Solar Farm Maintenance",
+      category: "Window Cleaning",
+      image: "src/assets/kenya-service-3-rope-access.jpg",
+      location: "Nairobi, CBD",
+      date: "2026",
       desc: "Automated and manual cleaning solutions for a 50MW solar installation."
     }
   ];
