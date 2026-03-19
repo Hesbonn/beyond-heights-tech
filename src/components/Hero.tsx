@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { ChevronDown } from 'lucide-react';
+import { img } from 'motion/react-client';
 
 export const Hero = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -100,4 +101,5 @@ export const Hero = () => {
       </motion.div>
     </section>
   );
-};
+}; 
+

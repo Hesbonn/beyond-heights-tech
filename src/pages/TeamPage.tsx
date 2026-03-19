@@ -98,10 +98,10 @@ export const TeamPage = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-32">
           {[
-            { label: "Engineers", value: "25+", icon: <Zap size={20} /> },
+            { label: "Engineers", value: "5+", icon: <Zap size={20} /> },
             { label: "Certifications", value: "15", icon: <Award size={20} /> },
             { label: "Safety Rating", value: "100%", icon: <Shield size={20} /> },
-            { label: "Projects", value: "2k+", icon: <Zap size={20} /> }
+            { label: "Projects", value: "100+", icon: <Zap size={20} /> }
           ].map((stat, idx) => (
             <motion.div 
               key={stat.label}
