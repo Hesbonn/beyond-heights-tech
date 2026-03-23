@@ -98,11 +98,16 @@ export const Footer = () => {
 
         <div className="pt-12 border-t border-ink/5 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 bg-ink rounded-sm rotate-45" />
+          
+            <img
+              src="src/assets/BH-logo.png"           // ← your file path (in public/ or imported from assets/)
+              alt="Your Company Name"
+              className="w-8 h-8 object-contain transition-colors rounded-lg duration-700"
+            />
             <span className="font-bold tracking-tighter">BEYOND HEIGHTS</span>
           </div>
           <p className="text-ink/30 text-sm">
-            © {new Date().getFullYear()} Beyond Heights Tech Ltd. All rights reserved.
+            © {new Date().getFullYear()} Designed by Hesbon Onyango Nyamweya. All rights reserved.
           </p>
           <div className="flex gap-8 text-sm text-ink/50">
             <a href="#" className="hover:text-ink transition-colors">Privacy</a>

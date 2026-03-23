@@ -27,11 +27,11 @@ export const StitchedGallery = () => {
           {/* Column 1 */}
           <div className="md:col-span-5 space-y-32 md:pt-20">
             <StitchedImage 
-              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000"
+              src="src/assets/kenya-service-4-window-detail.jpg"
               alt="Architecture"
               className="aspect-[4/5] rounded-[3rem]"
               direction="left"
-              accentSrc="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=400"
+              accentSrc="src/assets/Beyond H 12.jpeg"
             />
             <div className="pl-12">
               <h3 className="text-3xl font-bold mb-4 italic">Precision in every stitch.</h3>
@@ -40,7 +40,7 @@ export const StitchedGallery = () => {
               </p>
             </div>
             <StitchedImage 
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000"
+              src="src/assets/BH-residential-service.jpg"
               alt="Interior"
               className="aspect-square rounded-[3rem]"
               direction="up"
@@ -59,14 +59,14 @@ export const StitchedGallery = () => {
               </p>
             </div>
             <StitchedImage 
-              src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=1000"
+              src="src/assets/BH-team-safety.jpg"
               alt="Bridge"
               className="aspect-[3/4] rounded-[3rem]"
               direction="right"
-              accentSrc="https://images.unsplash.com/photo-1509391366360-fe5bb6583e2c?auto=format&fit=crop&q=80&w=400"
+              accentSrc="src/assets/Beyond H 14.jpeg"
             />
             <StitchedImage 
-              src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000"
+              src="src/assets/kenya-service-3-rope-access.jpg"
               alt="Detail"
               className="aspect-video rounded-[3rem]"
               direction="down"

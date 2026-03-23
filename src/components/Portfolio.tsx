@@ -7,31 +7,31 @@ export const Portfolio = () => {
     {
       client: "Holiday Inn",
       location: "Two Rivers, Nairobi",
-      image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1000",
+      image: "src/assets/Holiday-Inn.jpg",
       desc: "Full façade maintenance and high-level window cleaning for the luxury hotel group."
     },
     {
       client: "KRA",
       location: "Ushuru Pension Plaza, Westlands",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000",
+      image: "src/assets/KRA-Plaza.jpg",
       desc: "Comprehensive height-access solutions and exterior cleaning for the national tax authority."
     },
     {
       client: "ODP",
       location: "Office of the Deputy President",
-      image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1000",
+      image: "src/assets/Office-of-DP.jpg",
       desc: "Specialized maintenance and cleaning services for high-security government facilities."
     },
     {
       client: "Britam Tower",
       location: "Upper Hill, Nairobi",
-      image: "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=1000",
+      image: "src/assets/Britam-tower.jpg",
       desc: "Complex rope access engineering and structural inspections for the iconic skyscraper."
     },
     {
       client: "Prism Tower",
       location: "Upper Hill, Nairobi",
-      image: "https://images.unsplash.com/photo-1562664377-709f2c337eb2?auto=format&fit=crop&q=80&w=1000",
+      image: "src/assets/Prism-tower.jpg",
       desc: "Specialized glass restoration and high-level window cleaning for modern architectural facets."
     }
   ];

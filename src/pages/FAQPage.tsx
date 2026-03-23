@@ -156,7 +156,7 @@ export const FAQPage = () => {
               </p>
             </div>
             <button className="flex items-center gap-2 text-brand-electric font-bold uppercase tracking-widest text-sm hover:gap-4 transition-all">
-              +254 700 000 000 <ArrowRight size={18} />
+              +254 715-638 324 <ArrowRight size={18} />
             </button>
           </motion.div>
         </div>

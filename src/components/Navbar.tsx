@@ -56,8 +56,12 @@ export const Navbar = () => {
           to="/"
           className="text-2xl font-bold tracking-tighter flex items-center gap-2"
         >
-          <div className="w-8 h-8 bg-ink rounded-sm rotate-45 flex items-center justify-center transition-colors duration-700">
-            <div className="w-4 h-4 bg-paper -rotate-45 transition-colors duration-700" />
+          <div className="w-4 h-4 bg-ink flex items-center justify-center transition-colors duration-700">
+            <img
+              src="src/assets/BH-logo.png"           
+              alt="Your Company Name"
+              className="w-8 h-8 object-contain transition-colors rounded-sm duration-700"  
+            />
           </div>
           <span className="hidden sm:inline">BEYOND HEIGHTS</span>
         </Link>
@@ -124,7 +128,7 @@ export const Navbar = () => {
             whileTap={{ scale: 0.95 }}
             className="bg-ink text-paper px-6 py-2 rounded-full text-sm font-bold magnetic transition-colors duration-700"
           >
-            Start Project
+            Hire Us
           </motion.button>
         </div>
 

@@ -26,20 +26,20 @@ export const ContactPage = () => {
     {
       icon: <Phone className="text-brand-electric" />,
       title: "Call Us",
-      details: "+1 (555) 123-4567",
+      details: "+254 715-638 324/ +254 711-904 053",
       desc: "Mon-Fri from 8am to 6pm"
     },
     {
       icon: <Mail className="text-brand-electric" />,
       title: "Email Us",
-      details: "hello@beyondheights.com",
+      details: "beyondheights632@gmail.com",
       desc: "We respond within 24 hours"
     },
     {
       icon: <MapPin className="text-brand-electric" />,
       title: "Visit Us",
-      details: "123 Skyline Drive, Tech District",
-      desc: "New York, NY 10001"
+      details: "Sirikwa Business Centre Nairobi CBD",
+      desc: "Nairobi, Kenya"
     }
   ];
 
@@ -136,7 +136,7 @@ export const ContactPage = () => {
                     required
                     value={formData.name}
                     onChange={(e) => setFormData({...formData, name: e.target.value})}
-                    placeholder="John Doe"
+                    placeholder="Jane Wafula"
                     className="w-full bg-ink/5 border border-ink/10 rounded-2xl p-5 focus:border-brand-electric focus:outline-none transition-colors text-ink"
                   />
                 </div>
@@ -147,7 +147,7 @@ export const ContactPage = () => {
                     required
                     value={formData.email}
                     onChange={(e) => setFormData({...formData, email: e.target.value})}
-                    placeholder="john@example.com"
+                    placeholder="john@gmail.com"
                     className="w-full bg-ink/5 border border-ink/10 rounded-2xl p-5 focus:border-brand-electric focus:outline-none transition-colors text-ink"
                   />
                 </div>

@@ -55,10 +55,8 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
         >
-          <span className="text-brand-electric font-mono text-xs tracking-[0.3em] uppercase mb-4 block">
-            Vertical Engineering & Innovation
-          </span>
-          <h1 className="text-5xl md:text-8xl lg:text-9xl font-bold leading-none mb-8 text-gradient">
+          
+          <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold leading-none mb-8 text-gradient">
             Elevate Expert Cleaning <br />
             <motion.span 
               initial={{ opacity: 0 }}

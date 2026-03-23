@@ -35,13 +35,13 @@ export const CinematicSections = () => {
       <PinnedStorySection 
         title="Elegance in Motion"
         content="We believe that building maintenance is a performance. Every rope descent, every chemical application, and every structural seal is executed with the grace and precision of a master craftsman. Our innovation drives us to reach new heights of excellence."
-        image="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200"
+        image="src/assets/kenya-service-4-window-detail.jpg"
       />
 
       <PinnedStorySection 
         title="Nurturing Connection"
         content="Our relationships with clients are built on the same foundation as the buildings we maintain: integrity, transparency, and a long-term vision for excellence. We are committed to securing the future of your infrastructure."
-        image="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200"
+        image="src/assets/BH-Team.jpg"
         reverse
       />
 

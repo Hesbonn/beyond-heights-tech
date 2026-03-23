@@ -17,8 +17,8 @@ export const Services = () => {
       title: "High-Level Cleaning",
       desc: "Expert façade and cladding cleaning using industry-approved equipment and safe access techniques. We restore the architectural brilliance of your structure.",
       icon: <Wind size={28} />,
-      mainImage: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=1200",
-      detailImage: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=600",
+      mainImage: "src/assets/BH-Window-Cleaning.jpg",
+      detailImage: "src/assets/kenya-service-5-interior-cleaning.jpg",
       tags: ["Façade", "Cladding", "Atrium"],
       direction: 'left' as const
     },
@@ -26,8 +26,8 @@ export const Services = () => {
       title: "Fumigation Services",
       desc: "Comprehensive pest control solutions using approved chemicals to ensure safe and hygienic environments for commercial and residential spaces.",
       icon: <Bug size={28} />,
-      mainImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1200",
-      detailImage: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600",
+      mainImage: "src/assets/BH-fumigation.jpg",
+      detailImage: "src/assets/BH-fumigation 2.jpg",
       tags: ["Pest Control", "Hygiene", "Safety"],
       direction: 'right' as const
     },
@@ -35,8 +35,8 @@ export const Services = () => {
       title: "Height Access Solutions",
       desc: "Smart solutions for hard-to-reach areas including rope access, specialized lifts, and scaffolding. Safety is our primary thread.",
       icon: <ArrowUpCircle size={28} />,
-      mainImage: "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=1200",
-      detailImage: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=600",
+      mainImage: "src/assets/Beyond H 1.jpeg",
+      detailImage: "src/assets/Beyond H 2.jpeg",
       tags: ["Rope Access", "Lifts", "Scaffolding"],
       direction: 'top' as const
     },
@@ -44,8 +44,8 @@ export const Services = () => {
       title: "Facility Maintenance",
       desc: "Ongoing maintenance for lift shafts and specialized building components to ensure operational efficiency and structural longevity.",
       icon: <Building2 size={28} />,
-      mainImage: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1200",
-      detailImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=600",
+      mainImage: "src/assets/BH-equipment-setup.jpg",
+      detailImage: "src/assets/BH-equipment-setup.jpg",
       tags: ["Lift Shafts", "Industrial", "Commercial"],
       direction: 'bottom' as const
     }

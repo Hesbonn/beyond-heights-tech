@@ -25,7 +25,7 @@ export const ServicesPage = () => {
       id: "fumigation",
       title: "Fumigation",
       icon: <Bug size={32} />,
-      image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000",
+      image: "src/assets/BH-fumigation 2.jpg",
       services: [
         "Residential Pest Control",
         "Commercial Pest Control",
@@ -38,7 +38,7 @@ export const ServicesPage = () => {
       id: "height-access",
       title: "Height Access",
       icon: <ArrowUpCircle size={32} />,
-      image: "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=1000",
+      image: "src/assets/Beyond H 15.jpeg",
       services: [
         "Rope Access Services",
         "Lift Operations",
@@ -50,7 +50,7 @@ export const ServicesPage = () => {
       id: "window-cleaning",
       title: "Window Cleaning",
       icon: <Wind size={32} />,
-      image: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=1000",
+      image: "src/assets/BH-Window Cleaning.jpg",
       services: [
         "Residential Window Cleaning",
         "Commercial Window Cleaning",
@@ -62,7 +62,7 @@ export const ServicesPage = () => {
       id: "gutter-cleaning",
       title: "Gutter Cleaning",
       icon: <Droplets size={32} />,
-      image: "https://images.unsplash.com/photo-1633409361618-c73427e4e206?auto=format&fit=crop&q=80&w=1000",
+      image: "src/assets/BH-Gutter Cleaning.jpeg",
       services: [
         "Residential Gutter Cleaning",
         "Commercial Gutter Cleaning",
@@ -74,7 +74,7 @@ export const ServicesPage = () => {
       id: "pressure-washing",
       title: "Pressure Washing",
       icon: <Waves size={32} />,
-      image: "https://images.unsplash.com/photo-1520209268518-9601fe652423?auto=format&fit=crop&q=80&w=1000",
+      image: "src/assets/kenya-service-5-interior-cleaning.jpg",
       services: [
         "Residential Pressure Washing",
         "Commercial Pressure Washing",
@@ -86,7 +86,7 @@ export const ServicesPage = () => {
       id: "facade-restoration",
       title: "Facade Restoration",
       icon: <PaintBucket size={32} />,
-      image: "https://images.unsplash.com/photo-1503387762-592dee58c160?auto=format&fit=crop&q=80&w=1000",
+      image: "src/assets/Beyond H 2.jpeg",
       services: [
         "Building Facade Cleaning",
         "Cladding Maintenance",
@@ -98,7 +98,7 @@ export const ServicesPage = () => {
       id: "waterproofing",
       title: "Waterproofing",
       icon: <ShieldCheck size={32} />,
-      image: "https://images.unsplash.com/photo-1621905252507-b354bcadcabc?auto=format&fit=crop&q=80&w=1000",
+      image: "src/assets/Beyond H 3.jpeg",
       services: [
         "Roof Waterproofing",
         "Basement Waterproofing",
@@ -150,19 +150,19 @@ export const ServicesPage = () => {
           <GalleryGrid 
             title="Height Access" 
             images={[
-              "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=1000",
-              "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1000",
-              "https://images.unsplash.com/photo-1517089596392-db9a5e9428f6?auto=format&fit=crop&q=80&w=1000",
-              "https://images.unsplash.com/photo-1521203358991-741d24a71aee?auto=format&fit=crop&q=80&w=1000"
+              "src/assets/Beyond H 4.jpeg",
+              "src/assets/Beyond H 5.jpeg",
+              "src/assets/Beyond H 16.jpeg",
+              "src/assets/Beyond H 7.jpeg"
             ]} 
           />
           <GalleryGrid 
             title="Window Cleaning" 
             images={[
-              "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=1000",
-              "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1000",
-              "https://images.unsplash.com/photo-1562664377-709f2c337eb2?auto=format&fit=crop&q=80&w=1000",
-              "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1000"
+              "src/assets/BH-Window-Cleaning.jpg",
+              "src/assets/kenya-service-4-window-detail.jpg",
+              "src/assets/BH-residential-service.jpg",
+              "src/assets/Beyond H 11.jpeg"
             ]} 
           />
         </div>

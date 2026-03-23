@@ -30,34 +30,7 @@ export const TeamPage = () => {
       bio: "Expert in logistics and large-scale project management for commercial properties.",
       specialty: "Operational Excellence"
     },
-    {
-      name: "David Chen",
-      role: "Technical Director",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=600",
-      bio: "IRATA Level 3 certified instructor with a focus on rope access safety protocols.",
-      specialty: "Safety Engineering"
-    },
-    {
-      name: "Sarah Jenkins",
-      role: "Lead Restoration Specialist",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=600",
-      bio: "Specializes in heritage building restoration and eco-friendly chemical engineering.",
-      specialty: "Facade Restoration"
-    },
-    {
-      name: "Robert Miller",
-      role: "Senior Project Manager",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=600",
-      bio: "Manages our industrial portfolio, ensuring compliance with environmental regulations.",
-      specialty: "Industrial Solutions"
-    },
-    {
-      name: "Amina Okafor",
-      role: "Client Relations Manager",
-      image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&q=80&w=600",
-      bio: "Dedicated to building long-term partnerships and ensuring client satisfaction.",
-      specialty: "Strategic Partnerships"
-    }
+    
   ];
 
   return (

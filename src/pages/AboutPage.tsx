@@ -14,13 +14,13 @@ export const AboutPage = () => {
       icon: <ShieldCheck size={28} />,
       title: "Certified Expertise",
       desc: "All personnel are certified and trained in the latest safety standards and industry best practices.",
-      image: "src/assets/training.jpeg"
+      image: "src/assets/Team geared.jpeg"
     },
     {
       icon: <Zap size={28} />,
       title: "Modern Equipment",
       desc: "We invest in state-of-the-art equipment and approved chemicals to deliver superior results.",
-      image: "src/assets/Team geared.jpeg"
+      image: "src/assets/BH-equipment-setup.jpg"
     },
     {
       icon: <TrendingUp size={28} />,
@@ -32,7 +32,7 @@ export const AboutPage = () => {
       icon: <ShieldCheck size={28} />,
       title: "Safety Compliance",
       desc: "Strict adherence to occupational health and safety standards in all operations.",
-      image: "src/assets/training.jpeg"
+      image: "src/assets/BH-team-safety.jpg"
     },
     {
       icon: <Clock size={28} />,
@@ -49,25 +49,25 @@ export const AboutPage = () => {
   ];
 
   const values = [
-    {
+   {
       icon: <Target className="text-brand-electric" size={32} />,
-      title: "Precision",
-      desc: "We approach every project with surgical accuracy, ensuring every detail meets our rigorous standards."
+      title: "SAFETY",
+      desc: "A strong commitment to safe working-at-height practices, combined with proper handling and application of approved fumigation chemicals, ensuring the protection of occupants, property, and the environment."
     },
     {
       icon: <Award className="text-brand-electric" size={32} />,
-      title: "Excellence",
-      desc: "Good is never enough. We strive for industry-leading quality in every service we provide."
+      title: "PROFESSIONAL EXELLENCE",
+      desc: "Well-trained, certified, and uniformed staff, equipped with modern tools and industry-approved methods, ensuring consistent, high-quality service delivery."
     },
     {
       icon: <Users className="text-brand-electric" size={32} />,
-      title: "Integrity",
-      desc: "Transparency and honesty form the bedrock of our relationships with clients and partners."
+      title: "INNOVATION AND EFFICIENCY",
+      desc: "Smart, tailored solutions for high-rise and hard-to-reach areas (including rope access, lifts, and scaffolding), combined with efficient service methods designed to minimize disruption to clients."
     },
     {
       icon: <Heart className="text-brand-electric" size={32} />,
-      title: "Safety",
-      desc: "The well-being of our team and clients is our absolute priority, governed by strict safety protocols."
+      title: "CUSTOMER CENTRIC",
+      desc: "Tailored solutions for residential, commercial, and industrial clients, with a focus on building long-term partnerships rather than one-off jobs."
     }
   ];
 
@@ -83,7 +83,7 @@ export const AboutPage = () => {
     {
       name: "Eunice Mashaiti",
       role: "Founder & Operations Director",
-      image: "src/assets/Eunice Mashaiti.jpeg", // Placeholder for the uploaded image
+      image: "src/assets/Eunice Mashaiti.jpeg", 
       bio: "A visionary leader with over a decade of experience in specialized building maintenance and high-access solutions."
     }
   ];
@@ -147,9 +147,10 @@ export const AboutPage = () => {
               <Eye className="text-brand-electric" /> Our Vision
             </h2>
             <p className="text-xl text-ink/50 leading-relaxed">
-              To be the global benchmark for specialized building maintenance, 
-              where technology meets craftsmanship to create safer, cleaner, 
-              and more sustainable urban environments.
+              To be a trusted service provider recognized
+                for certified competence, operational
+                excellence, and measurable results
+
             </p>
           </motion.div>
 
@@ -164,9 +165,10 @@ export const AboutPage = () => {
               <Target className="text-brand-electric" /> Our Mission
             </h2>
             <p className="text-xl text-ink/50 leading-relaxed">
-              To deliver uncompromising quality in specialized services through 
-              continuous innovation, rigorous safety standards, and a 
-              relentless commitment to client satisfaction.
+              To deliver professional exterior and interior building cleaning
+              solutions and fumigation services through certified expertise,
+              ensuring safe, clean, and pest-free environments for our
+              clients.
             </p>
           </motion.div>
         </div>

@@ -15,8 +15,8 @@ import { FlipCard } from '../components/FlipCard';
 
 const serviceDetails: Record<string, any> = {
   "fumigation": {
-    title: "Fumigation & Pest Control",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=2000",
+    title: "Fumigation",
+    image: "/src/assets/BH-fumigation 2.jpg",
     description: "Our professional fumigation services utilize industry-approved, eco-friendly chemicals to eliminate pests while ensuring the safety of occupants and the environment. We provide tailored solutions for residential, commercial, and industrial spaces.",
     subServices: [
       { name: "Residential Pest Control", desc: "Protecting your home from common pests with family-safe treatments." },
@@ -27,23 +27,23 @@ const serviceDetails: Record<string, any> = {
     ],
     features: ["Eco-friendly Chemicals", "Certified Technicians", "24/7 Support", "Guaranteed Results"],
     gallery: [
-      "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1587582423116-ec07293f0395?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1592419044706-39796d40f98c?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1583912267550-d44d4a3c5a71?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&q=80&w=1000"
+      "/src/assets/BH-fumigation 2.jpg",
+      "/src/assets/BH-fumigation.jpg",
+      "/src/assets/kenya-service-3-rope-access.jpg",
+      "/src/assets/Beyond H 1.jpeg",
+      "/src/assets/Beyond H 2.jpeg",
+      "/src/assets/Beyond H 3.jpeg",
+      "/src/assets/Beyond H 4.jpeg",
+      "/src/assets/Beyond H 5.jpeg",
+      "/src/assets/Beyond H 6.jpeg",
+      "/src/assets/Beyond H 7.jpeg",
+      "/src/assets/Beyond H 8.jpeg",
+      "/src/assets/Beyond H 9.jpeg"
     ]
   },
   "height-access": {
     title: "Height Access Solutions",
-    image: "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=2000",
+    image: "/src/assets/Beyond H 8.jpeg",
     description: "We specialize in smart solutions for high-rise and hard-to-reach areas. Our team is certified in various access techniques, ensuring that no height is out of reach for maintenance or cleaning.",
     subServices: [
       { name: "Rope Access Services", desc: "IRATA certified technicians for efficient vertical engineering." },
@@ -53,20 +53,20 @@ const serviceDetails: Record<string, any> = {
     ],
     features: ["IRATA Certified", "Safety Audited", "Rapid Deployment", "Minimal Disruption"],
     gallery: [
-      "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1517089596392-db9a5e9428f6?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1521203358991-741d24a71aee?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1533106418989-88406c7cc8ca?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1503387762-592dee58c160?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1496307653780-42ee777d4833?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1449156001935-d28bc1cd728f?auto=format&fit=crop&q=80&w=1000"
+      "/src/assets/Beyond H 1.jpeg",
+      "/src/assets/Beyond H 2.jpeg",
+      "/src/assets/Beyond H 3.jpeg",
+      "/src/assets/Beyond H 4.jpeg",
+      "/src/assets/Beyond H 5.jpeg",
+      "/src/assets/Beyond H 6.jpeg",
+      "/src/assets/Beyond H 7.jpeg",
+      "/src/assets/Beyond H 8.jpeg",
+      "/src/assets/Beyond H 9.jpeg"
     ]
   },
   "window-cleaning": {
     title: "Professional Window Cleaning",
-    image: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=2000",
+    image: "/src/assets/BH-Window-Cleaning.jpg",
     description: "Crystal clear views for every structure. We use specialized equipment and pure water systems to deliver streak-free results for even the most complex architectural glass.",
     subServices: [
       { name: "Residential Window Cleaning", desc: "Premium cleaning for homes, apartments, and penthouses." },
@@ -76,20 +76,20 @@ const serviceDetails: Record<string, any> = {
     ],
     features: ["Streak-free Finish", "Pure Water Systems", "Eco-friendly", "Fully Insured"],
     gallery: [
-      "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1562664377-709f2c337eb2?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1520209268518-9601fe652423?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&q=80&w=1000"
+      "/src/assets/BH-Window-Cleaning.jpg",
+      "/src/assets/BH-residential-service.jpg",
+      "/src/assets/Beyond H 14.jpeg",
+      "/src/assets/Beyond H 11.jpeg",
+      "/src/assets/Beyond H 12.jpeg",
+      "/src/assets/Beyond H 13.jpeg",
+      "/src/assets/Beyond H 15.jpeg",
+      "/src/assets/Beyond H 16.jpeg",
+      "/src/assets/Beyond H 17.jpeg"
     ]
   },
   "gutter-cleaning": {
     title: "Gutter Maintenance",
-    image: "https://images.unsplash.com/photo-1633409361618-c73427e4e206?auto=format&fit=crop&q=80&w=2000",
+    image: "/src/assets/BH-Gutter Cleaning2.jpeg",
     description: "Prevent water damage and structural issues with our comprehensive gutter services. We ensure your drainage systems are clear and functioning perfectly.",
     subServices: [
       { name: "Residential Gutter Cleaning", desc: "Debris removal and downspout flushing for homes." },
@@ -101,7 +101,7 @@ const serviceDetails: Record<string, any> = {
   },
   "pressure-washing": {
     title: "Pressure Washing",
-    image: "https://images.unsplash.com/photo-1520209268518-9601fe652423?auto=format&fit=crop&q=80&w=2000",
+    image: "/src/assets/kenya-service-5-interior-cleaning.jpg",
     description: "Restore the original beauty of your surfaces. Our high-pressure cleaning systems remove years of dirt, grime, and environmental staining from all exterior surfaces.",
     subServices: [
       { name: "Residential Pressure Washing", desc: "Cleaning driveways, walls, and pool decks." },
@@ -113,7 +113,7 @@ const serviceDetails: Record<string, any> = {
   },
   "facade-restoration": {
     title: "Facade Restoration",
-    image: "https://images.unsplash.com/photo-1503387762-592dee58c160?auto=format&fit=crop&q=80&w=2000",
+    image: "/src/assets/BH-residential-service.jpg",
     description: "Preserving architectural integrity. We specialize in cleaning and restoring building exteriors to their original glory using specialized techniques for different materials.",
     subServices: [
       { name: "Building Facade Cleaning", desc: "Removing pollutants and biological growth from exteriors." },
@@ -125,7 +125,7 @@ const serviceDetails: Record<string, any> = {
   },
   "waterproofing": {
     title: "Waterproofing Solutions",
-    image: "https://images.unsplash.com/photo-1621905252507-b354bcadcabc?auto=format&fit=crop&q=80&w=2000",
+    image: "/src/assets/kenya-service-5-interior-cleaning.jpg",
     description: "Comprehensive protection against water ingress. We provide advanced sealing and membrane solutions to protect your building from the elements.",
     subServices: [
       { name: "Roof Waterproofing", desc: "Membrane and liquid-applied systems for all roof types." },

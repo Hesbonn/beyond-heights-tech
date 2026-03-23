@@ -42,7 +42,7 @@ export const PortfolioPage = () => {
       id: 4,
       title: "Heritage Plaza Fumigation",
       category: "Fumigation",
-      image: "src/assets/kenya-service-5-interior-cleaning.jpg",
+      image: "src/assets/BH-fumigation 2.jpg",
       location: "Nairobi, Kenya",
       date: "2026",
       desc: "Eco-friendly pest management for a historic residential complex."
@@ -66,33 +66,6 @@ export const PortfolioPage = () => {
       desc: "Automated and manual cleaning solutions for a 50MW solar installation."
     },
 
-    {
-      id: 7,
-      title: "Heritage Plaza Fumigation",
-      category: "Fumigation",
-      image: "src/assets/kenya-service-5-interior-cleaning.jpg",
-      location: "Nairobi, Kenya",
-      date: "2026",
-      desc: "Eco-friendly pest management for a historic residential complex."
-    },
-    {
-      id: 8,
-      title: "Bridge Inspection Services",
-      category: "Height Access",
-      image: "src/assets/Beyond H 8.jpeg",
-      location: "Nairobi, CBD",
-      date: "2026",
-      desc: "Rope access structural inspection and minor repairs for a major suspension bridge."
-    },
-    {
-      id: 9,
-      title: "Solar Farm Maintenance",
-      category: "Window Cleaning",
-      image: "src/assets/kenya-service-3-rope-access.jpg",
-      location: "Nairobi, CBD",
-      date: "2026",
-      desc: "Automated and manual cleaning solutions for a 50MW solar installation."
-    }
   ];
 
   const categories = ['All', ...Array.from(new Set(projects.map(p => p.category)))];
