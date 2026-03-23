@@ -68,11 +68,11 @@ export const Footer = () => {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-2">
                   <label className="text-xs uppercase tracking-widest text-ink/40">Name</label>
-                  <input type="text" className="w-full bg-transparent border-b border-ink/10 py-3 focus:border-brand-electric outline-none transition-colors" placeholder="John Doe" />
+                  <input type="text" className="w-full bg-transparent border-b border-ink/10 py-3 focus:border-brand-electric outline-none transition-colors" placeholder="John Kariuki" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-xs uppercase tracking-widest text-ink/40">Email</label>
-                  <input type="email" className="w-full bg-transparent border-b border-ink/10 py-3 focus:border-brand-electric outline-none transition-colors" placeholder="john@example.com" />
+                  <input type="email" className="w-full bg-transparent border-b border-ink/10 py-3 focus:border-brand-electric outline-none transition-colors" placeholder="johnkari@gmail.com" />
                 </div>
               </div>
               <div className="space-y-2">
