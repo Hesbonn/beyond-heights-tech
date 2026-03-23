@@ -192,7 +192,7 @@ export const ContactPage = () => {
         <div className="mb-32 rounded-[3rem] overflow-hidden h-[400px] glass relative group">
           <div className="absolute inset-0 bg-paper/40 group-hover:bg-paper/20 transition-colors z-10" />
           <img 
-            src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&q=80&w=2000" 
+            src="public/assets/kenya-service-3-rope-access.jpg" 
             alt="Map Location" 
             className="w-full h-full object-cover grayscale opacity-40 group-hover:scale-105 transition-transform duration-1000"
             referrerPolicy="no-referrer"

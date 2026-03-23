@@ -100,7 +100,7 @@ export const Footer = () => {
           <div className="flex items-center gap-2">
           
             <img
-              src="src/assets/BH-logo.png"           // ← your file path (in public/ or imported from assets/)
+              src="/assets/BH-logo.png"           // ← your file path (in public/ or imported from assets/)
               alt="Your Company Name"
               className="w-8 h-8 object-contain transition-colors rounded-lg duration-700"
             />

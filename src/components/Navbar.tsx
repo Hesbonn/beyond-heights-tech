@@ -58,7 +58,7 @@ export const Navbar = () => {
         >
           <div className="w-4 h-4 bg-ink flex items-center justify-center transition-colors duration-700">
             <img
-              src="src/assets/BH-logo.png"           
+              src="/assets/BH-logo.png"           
               alt="Your Company Name"
               className="w-8 h-8 object-contain transition-colors rounded-sm duration-700"  
             />

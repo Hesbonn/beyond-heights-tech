@@ -15,7 +15,7 @@ export const PortfolioPage = () => {
       id: 1,
       title: "Skyline Towers Restoration",
       category: "Facade Restoration",
-      image: "src/assets/kenya-service-4-window-detail.jpg",
+      image: "public/assets/kenya-service-4-window-detail.jpg",
       location: "Nairobi, Kenya",
       date: "2026",
       desc: "Complete facade cleaning and structural restoration of a 60-story commercial tower."
@@ -24,7 +24,7 @@ export const PortfolioPage = () => {
       id: 2,
       title: "Grand Atrium Maintenance",
       category: "Window Cleaning",
-      image: "src/assets/Beyond H 17.jpeg",
+      image: "public/assets/Beyond H 17.jpeg",
       location: "Nairobi, Kenya",
       date: "2025",
       desc: "Specialized internal glass cleaning for a complex geometric atrium structure."
@@ -33,7 +33,7 @@ export const PortfolioPage = () => {
       id: 3,
       title: "Industrial Complex Sealing",
       category: "Waterproofing",
-      image: "src/assets/kenya-service-5-interior-cleaning.jpg",
+      image: "public/assets/kenya-service-5-interior-cleaning.jpg",
       location: "Nairobi, Kenya",
       date: "2026",
       desc: "Large-scale membrane waterproofing for a 500,000 sq ft industrial facility."
@@ -42,7 +42,7 @@ export const PortfolioPage = () => {
       id: 4,
       title: "Heritage Plaza Fumigation",
       category: "Fumigation",
-      image: "src/assets/BH-fumigation 2.jpg",
+      image: "public/assets/BH-fumigation 2.jpg",
       location: "Nairobi, Kenya",
       date: "2026",
       desc: "Eco-friendly pest management for a historic residential complex."
@@ -51,7 +51,7 @@ export const PortfolioPage = () => {
       id: 5,
       title: "Bridge Inspection Services",
       category: "Height Access",
-      image: "src/assets/Beyond H 8.jpeg",
+      image: "public/assets/Beyond H 8.jpeg",
       location: "Nairobi, CBD",
       date: "2026",
       desc: "Rope access structural inspection and minor repairs for a major suspension bridge."
@@ -60,7 +60,7 @@ export const PortfolioPage = () => {
       id: 6,
       title: "Solar Farm Maintenance",
       category: "Window Cleaning",
-      image: "src/assets/kenya-service-3-rope-access.jpg",
+      image: "public/assets/kenya-service-3-rope-access.jpg",
       location: "Nairobi, CBD",
       date: "2026",
       desc: "Automated and manual cleaning solutions for a 50MW solar installation."

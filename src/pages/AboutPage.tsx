@@ -14,37 +14,37 @@ export const AboutPage = () => {
       icon: <ShieldCheck size={28} />,
       title: "Certified Expertise",
       desc: "All personnel are certified and trained in the latest safety standards and industry best practices.",
-      image: "src/assets/Team geared.jpeg"
+      image: "/assets/Team geared.jpeg"
     },
     {
       icon: <Zap size={28} />,
       title: "Modern Equipment",
       desc: "We invest in state-of-the-art equipment and approved chemicals to deliver superior results.",
-      image: "src/assets/BH-equipment-setup.jpg"
+      image: "/assets/BH-equipment-setup.jpg"
     },
     {
       icon: <TrendingUp size={28} />,
       title: "Proven Track Record",
       desc: "Trusted by major institutions, property managers, and building owners across Kenya.",
-      image: "src/assets/training.jpeg"
+      image: "/assets/training.jpeg"
     },
     {
       icon: <ShieldCheck size={28} />,
       title: "Safety Compliance",
       desc: "Strict adherence to occupational health and safety standards in all operations.",
-      image: "src/assets/BH-team-safety.jpg"
+      image: "/assets/BH-team-safety.jpg"
     },
     {
       icon: <Clock size={28} />,
       title: "Reliable Service",
       desc: "Timely delivery and consistent quality across all projects, big or small.",
-      image: "src/assets/kenya-service-4-window-detail.jpg"
+      image: "/assets/kenya-service-4-window-detail.jpg"
     },
     {
       icon: <Smile size={28} />,
       title: "Client Satisfaction",
       desc: "Long-term partnerships built on trust, transparency, and measurable results.",
-      image: "src/assets/kenya-service-5-interior-cleaning.jpg"
+      image: "/assets/kenya-service-5-interior-cleaning.jpg"
     }
   ];
 
@@ -83,7 +83,7 @@ export const AboutPage = () => {
     {
       name: "Eunice Mashaiti",
       role: "Founder & Operations Director",
-      image: "src/assets/Eunice Mashaiti.jpeg", 
+      image: "/assets/Eunice Mashaiti.jpeg", 
       bio: "A visionary leader with over a decade of experience in specialized building maintenance and high-access solutions."
     }
   ];
@@ -125,7 +125,7 @@ export const AboutPage = () => {
             </motion.p>
             <div className="relative rounded-[3rem] overflow-hidden aspect-video glass">
               <img 
-                src="src/assets/Team geared.jpeg" 
+                src="/assets/Team geared.jpeg"
                 alt="Office" 
                 className="w-full h-full object-cover opacity-60"
                 referrerPolicy="no-referrer"

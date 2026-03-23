@@ -25,7 +25,7 @@ export const ServicesPage = () => {
       id: "fumigation",
       title: "Fumigation",
       icon: <Bug size={32} />,
-      image: "src/assets/BH-fumigation 2.jpg",
+      image: "/assets/BH-fumigation 2.jpg",
       services: [
         "Residential Pest Control",
         "Commercial Pest Control",
@@ -38,7 +38,7 @@ export const ServicesPage = () => {
       id: "height-access",
       title: "Height Access",
       icon: <ArrowUpCircle size={32} />,
-      image: "src/assets/Beyond H 15.jpeg",
+      image: "/assets/Beyond H 15.jpeg",
       services: [
         "Rope Access Services",
         "Lift Operations",
@@ -50,7 +50,7 @@ export const ServicesPage = () => {
       id: "window-cleaning",
       title: "Window Cleaning",
       icon: <Wind size={32} />,
-      image: "src/assets/BH-Window Cleaning.jpg",
+      image: "/assets/BH-Window-Cleaning.jpg",
       services: [
         "Residential Window Cleaning",
         "Commercial Window Cleaning",
@@ -62,7 +62,7 @@ export const ServicesPage = () => {
       id: "gutter-cleaning",
       title: "Gutter Cleaning",
       icon: <Droplets size={32} />,
-      image: "src/assets/BH-Gutter Cleaning.jpeg",
+      image: "/assets/BH-Gutter Cleaning.jpeg",
       services: [
         "Residential Gutter Cleaning",
         "Commercial Gutter Cleaning",
@@ -74,7 +74,7 @@ export const ServicesPage = () => {
       id: "pressure-washing",
       title: "Pressure Washing",
       icon: <Waves size={32} />,
-      image: "src/assets/kenya-service-5-interior-cleaning.jpg",
+      image: "/assets/kenya-service-5-interior-cleaning.jpg",
       services: [
         "Residential Pressure Washing",
         "Commercial Pressure Washing",
@@ -86,7 +86,7 @@ export const ServicesPage = () => {
       id: "facade-restoration",
       title: "Facade Restoration",
       icon: <PaintBucket size={32} />,
-      image: "src/assets/Beyond H 2.jpeg",
+      image: "/assets/Beyond H 2.jpeg",
       services: [
         "Building Facade Cleaning",
         "Cladding Maintenance",
@@ -98,7 +98,7 @@ export const ServicesPage = () => {
       id: "waterproofing",
       title: "Waterproofing",
       icon: <ShieldCheck size={32} />,
-      image: "src/assets/Beyond H 3.jpeg",
+      image: "/assets/Beyond H 3.jpeg",
       services: [
         "Roof Waterproofing",
         "Basement Waterproofing",
@@ -150,19 +150,19 @@ export const ServicesPage = () => {
           <GalleryGrid 
             title="Height Access" 
             images={[
-              "src/assets/Beyond H 4.jpeg",
-              "src/assets/Beyond H 5.jpeg",
-              "src/assets/Beyond H 16.jpeg",
-              "src/assets/Beyond H 7.jpeg"
+              "/assets/Beyond H 4.jpeg",
+              "/assets/Beyond H 5.jpeg",
+              "/assets/Beyond H 16.jpeg",
+              "/assets/Beyond H 7.jpeg"
             ]} 
           />
           <GalleryGrid 
             title="Window Cleaning" 
             images={[
-              "src/assets/BH-Window-Cleaning.jpg",
-              "src/assets/kenya-service-4-window-detail.jpg",
-              "src/assets/BH-residential-service.jpg",
-              "src/assets/Beyond H 11.jpeg"
+              "/assets/BH-Window-Cleaning.jpg",
+              "/assets/kenya-service-4-window-detail.jpg",
+              "/assets/BH-residential-service.jpg",
+              "/assets/Beyond H 11.jpeg"
             ]} 
           />
         </div>

@@ -12,21 +12,21 @@ export const TeamPage = () => {
     {
       name: "Eunice Mashaiti",
       role: "Founder & Operations Director",
-      image: "/src/assets/Eunice Mashaiti.jpeg",
+      image: "/assets/Eunice Mashaiti.jpeg",
       bio: "A visionary leader with over a decade of experience in specialized building maintenance and high-access solutions.",
       specialty: "Strategic Leadership"
     },
     {
       name: "Bernard Naiyani",
       role: "Technical Director",
-      image: "/src/assets/CEO of beyond heights.jpeg",
+      image: "/assets/CEO of beyond heights.jpeg",
       bio: "A global leader in high-access safety. From the cliffs of Laikipia to professional arenas in Kuwait, Bernard combines international rock climbing mastery with elite safety credentials (NEBOSH & OSH Diploma). He ensures every project at Beyond Heights meets world-class standards in rope access and occupational health.",
       specialty: "Strategic Planning"
     },
     {
       name: "Elena Rodriguez",
       role: "Head of Operations",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=600",
+      image: "/assets/CEO of beyond heights.jpeg",
       bio: "Expert in logistics and large-scale project management for commercial properties.",
       specialty: "Operational Excellence"
     },

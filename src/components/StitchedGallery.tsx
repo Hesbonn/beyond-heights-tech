@@ -27,11 +27,11 @@ export const StitchedGallery = () => {
           {/* Column 1 */}
           <div className="md:col-span-5 space-y-32 md:pt-20">
             <StitchedImage 
-              src="src/assets/kenya-service-4-window-detail.jpg"
+              src="/assets/kenya-service-4-window-detail.jpg"
               alt="Architecture"
               className="aspect-[4/5] rounded-[3rem]"
               direction="left"
-              accentSrc="src/assets/Beyond H 12.jpeg"
+              accentSrc="/assets/Beyond H 12.jpeg"
             />
             <div className="pl-12">
               <h3 className="text-3xl font-bold mb-4 italic">Precision in every stitch.</h3>
@@ -40,7 +40,7 @@ export const StitchedGallery = () => {
               </p>
             </div>
             <StitchedImage 
-              src="src/assets/BH-residential-service.jpg"
+              src="/assets/BH-residential-service.jpg"
               alt="Interior"
               className="aspect-square rounded-[3rem]"
               direction="up"
@@ -59,14 +59,14 @@ export const StitchedGallery = () => {
               </p>
             </div>
             <StitchedImage 
-              src="src/assets/BH-team-safety.jpg"
+              src="/assets/BH-team-safety.jpg"
               alt="Bridge"
               className="aspect-[3/4] rounded-[3rem]"
               direction="right"
-              accentSrc="src/assets/Beyond H 14.jpeg"
+              accentSrc="/assets/Beyond H 14.jpeg"
             />
             <StitchedImage 
-              src="src/assets/kenya-service-3-rope-access.jpg"
+              src="/assets/kenya-service-3-rope-access.jpg"
               alt="Detail"
               className="aspect-video rounded-[3rem]"
               direction="down"

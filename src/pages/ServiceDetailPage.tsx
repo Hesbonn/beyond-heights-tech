@@ -16,7 +16,7 @@ import { FlipCard } from '../components/FlipCard';
 const serviceDetails: Record<string, any> = {
   "fumigation": {
     title: "Fumigation",
-    image: "/src/assets/BH-fumigation 2.jpg",
+    image: "/assets/BH-fumigation 2.jpg",
     description: "Our professional fumigation services utilize industry-approved, eco-friendly chemicals to eliminate pests while ensuring the safety of occupants and the environment. We provide tailored solutions for residential, commercial, and industrial spaces.",
     subServices: [
       { name: "Residential Pest Control", desc: "Protecting your home from common pests with family-safe treatments." },
@@ -27,23 +27,23 @@ const serviceDetails: Record<string, any> = {
     ],
     features: ["Eco-friendly Chemicals", "Certified Technicians", "24/7 Support", "Guaranteed Results"],
     gallery: [
-      "/src/assets/BH-fumigation 2.jpg",
-      "/src/assets/BH-fumigation.jpg",
-      "/src/assets/kenya-service-3-rope-access.jpg",
-      "/src/assets/Beyond H 1.jpeg",
-      "/src/assets/Beyond H 2.jpeg",
-      "/src/assets/Beyond H 3.jpeg",
-      "/src/assets/Beyond H 4.jpeg",
-      "/src/assets/Beyond H 5.jpeg",
-      "/src/assets/Beyond H 6.jpeg",
-      "/src/assets/Beyond H 7.jpeg",
-      "/src/assets/Beyond H 8.jpeg",
-      "/src/assets/Beyond H 9.jpeg"
+      "/assets/BH-fumigation 2.jpg",
+      "/assets/BH-fumigation.jpg",
+      "/assets/kenya-service-3-rope-access.jpg",
+      "/assets/Beyond H 1.jpeg",
+      "/assets/Beyond H 2.jpeg",
+      "/assets/Beyond H 3.jpeg",
+      "/assets/Beyond H 4.jpeg",
+      "/assets/Beyond H 5.jpeg",
+      "/assets/Beyond H 6.jpeg",
+      "/assets/Beyond H 7.jpeg",
+      "/assets/Beyond H 8.jpeg",
+      "/assets/Beyond H 9.jpeg"
     ]
   },
   "height-access": {
     title: "Height Access Solutions",
-    image: "/src/assets/Beyond H 8.jpeg",
+    image: "/assets/Beyond H 8.jpeg",
     description: "We specialize in smart solutions for high-rise and hard-to-reach areas. Our team is certified in various access techniques, ensuring that no height is out of reach for maintenance or cleaning.",
     subServices: [
       { name: "Rope Access Services", desc: "IRATA certified technicians for efficient vertical engineering." },
@@ -53,20 +53,20 @@ const serviceDetails: Record<string, any> = {
     ],
     features: ["IRATA Certified", "Safety Audited", "Rapid Deployment", "Minimal Disruption"],
     gallery: [
-      "/src/assets/Beyond H 1.jpeg",
-      "/src/assets/Beyond H 2.jpeg",
-      "/src/assets/Beyond H 3.jpeg",
-      "/src/assets/Beyond H 4.jpeg",
-      "/src/assets/Beyond H 5.jpeg",
-      "/src/assets/Beyond H 6.jpeg",
-      "/src/assets/Beyond H 7.jpeg",
-      "/src/assets/Beyond H 8.jpeg",
-      "/src/assets/Beyond H 9.jpeg"
+      "/assets/Beyond H 1.jpeg",
+      "/assets/Beyond H 2.jpeg",
+      "/assets/Beyond H 3.jpeg",
+      "/assets/Beyond H 4.jpeg",
+      "/assets/Beyond H 5.jpeg",
+      "/assets/Beyond H 6.jpeg",
+      "/assets/Beyond H 7.jpeg",
+      "/assets/Beyond H 8.jpeg",
+      "/assets/Beyond H 9.jpeg"
     ]
   },
   "window-cleaning": {
     title: "Professional Window Cleaning",
-    image: "/src/assets/BH-Window-Cleaning.jpg",
+    image: "/assets/BH-Window-Cleaning.jpg",
     description: "Crystal clear views for every structure. We use specialized equipment and pure water systems to deliver streak-free results for even the most complex architectural glass.",
     subServices: [
       { name: "Residential Window Cleaning", desc: "Premium cleaning for homes, apartments, and penthouses." },
@@ -76,20 +76,20 @@ const serviceDetails: Record<string, any> = {
     ],
     features: ["Streak-free Finish", "Pure Water Systems", "Eco-friendly", "Fully Insured"],
     gallery: [
-      "/src/assets/BH-Window-Cleaning.jpg",
-      "/src/assets/BH-residential-service.jpg",
-      "/src/assets/Beyond H 14.jpeg",
-      "/src/assets/Beyond H 11.jpeg",
-      "/src/assets/Beyond H 12.jpeg",
-      "/src/assets/Beyond H 13.jpeg",
-      "/src/assets/Beyond H 15.jpeg",
-      "/src/assets/Beyond H 16.jpeg",
-      "/src/assets/Beyond H 17.jpeg"
+      "/assets/BH-Window-Cleaning.jpg",
+      "/assets/BH-residential-service.jpg",
+      "/assets/Beyond H 14.jpeg",
+      "/assets/Beyond H 11.jpeg",
+      "/assets/Beyond H 12.jpeg",
+      "/assets/Beyond H 13.jpeg",
+      "/assets/Beyond H 15.jpeg",
+      "/assets/Beyond H 16.jpeg",
+      "/assets/Beyond H 17.jpeg"
     ]
   },
   "gutter-cleaning": {
     title: "Gutter Maintenance",
-    image: "/src/assets/BH-Gutter Cleaning2.jpeg",
+    image: "/assets/BH-Gutter Cleaning2.jpeg",
     description: "Prevent water damage and structural issues with our comprehensive gutter services. We ensure your drainage systems are clear and functioning perfectly.",
     subServices: [
       { name: "Residential Gutter Cleaning", desc: "Debris removal and downspout flushing for homes." },
@@ -101,7 +101,7 @@ const serviceDetails: Record<string, any> = {
   },
   "pressure-washing": {
     title: "Pressure Washing",
-    image: "/src/assets/kenya-service-5-interior-cleaning.jpg",
+    image: "/assets/kenya-service-5-interior-cleaning.jpg",
     description: "Restore the original beauty of your surfaces. Our high-pressure cleaning systems remove years of dirt, grime, and environmental staining from all exterior surfaces.",
     subServices: [
       { name: "Residential Pressure Washing", desc: "Cleaning driveways, walls, and pool decks." },
@@ -113,7 +113,7 @@ const serviceDetails: Record<string, any> = {
   },
   "facade-restoration": {
     title: "Facade Restoration",
-    image: "/src/assets/BH-residential-service.jpg",
+    image: "/assets/BH-residential-service.jpg",
     description: "Preserving architectural integrity. We specialize in cleaning and restoring building exteriors to their original glory using specialized techniques for different materials.",
     subServices: [
       { name: "Building Facade Cleaning", desc: "Removing pollutants and biological growth from exteriors." },
@@ -125,7 +125,7 @@ const serviceDetails: Record<string, any> = {
   },
   "waterproofing": {
     title: "Waterproofing Solutions",
-    image: "/src/assets/kenya-service-5-interior-cleaning.jpg",
+    image: "/assets/kenya-service-5-interior-cleaning.jpg",
     description: "Comprehensive protection against water ingress. We provide advanced sealing and membrane solutions to protect your building from the elements.",
     subServices: [
       { name: "Roof Waterproofing", desc: "Membrane and liquid-applied systems for all roof types." },
