@@ -72,11 +72,11 @@ export const AboutPage = () => {
   ];
 
   const milestones = [
-    { year: "2015", title: "The Beginning", desc: "Beyond Heights was founded with a single van and a vision to redefine high-access maintenance." },
-    { year: "2017", title: "Expansion", desc: "We introduced specialized fumigation and industrial cleaning services to our portfolio." },
-    { year: "2019", title: "Certification", desc: "Achieved full IRATA certification, setting a new benchmark for safety in the region." },
-    { year: "2022", title: "Innovation", desc: "Launched our proprietary eco-friendly chemical line for sustainable facade restoration." },
-    { year: "2024", title: "Market Leader", desc: "Now serving over 500 commercial properties across the country." }
+    { year: "2020", title: "The Beginning", desc: "Beyond Heights was founded with a single van and a vision to redefine high-access maintenance." },
+    { year: "2021", title: "Expansion", desc: "We introduced specialized fumigation and industrial cleaning services to our portfolio." },
+    { year: "2022", title: "Certification", desc: "Achieved full IRATA certification, setting a new benchmark for safety in the region." },
+    { year: "2025", title: "Innovation", desc: "Launched our proprietary eco-friendly chemical line for sustainable facade restoration." },
+    { year: "2026", title: "Market Leader", desc: "Now serving over 50 commercial properties across the country." }
   ];
 
   const team = [
