@@ -63,7 +63,7 @@ export const Navbar = () => {
               className="w-8 h-8 object-contain transition-colors rounded-sm duration-700"  
             />
           </div>
-          <span className="hidden sm:inline">BEYOND HEIGHTS</span>
+          <span className="hidden sm:inline">BEYOND HEIGHTS TECH LTD</span>
         </Link>
 
         {/* Desktop Nav */}

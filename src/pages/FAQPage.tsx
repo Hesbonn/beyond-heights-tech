@@ -63,7 +63,7 @@ export const FAQPage = () => {
       answer: "Frequency depends on the building's location and material. Generally, we recommend a full exterior cleaning every 6-12 months to prevent pollutant buildup and maintain structural integrity. We provide custom maintenance schedules based on site audits."
     },
     {
-      question: "Is Beyond Heights fully insured?",
+      question: "Is Beyond Heights Tech Ltd fully insured?",
       answer: "Absolutely. We carry comprehensive general liability insurance, workers' compensation, and specialized high-risk insurance specifically tailored for high-access engineering and industrial maintenance."
     }
   ];

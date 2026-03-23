@@ -72,7 +72,7 @@ export const AboutPage = () => {
   ];
 
   const milestones = [
-    { year: "2020", title: "The Beginning", desc: "Beyond Heights was founded with a single van and a vision to redefine high-access maintenance." },
+    { year: "2020", title: "The Beginning", desc: "Beyond Heights Tech Ltd was founded with a single van and a vision to redefine high-access maintenance." },
     { year: "2021", title: "Expansion", desc: "We introduced specialized fumigation and industrial cleaning services to our portfolio." },
     { year: "2022", title: "Certification", desc: "Achieved full IRATA certification, setting a new benchmark for safety in the region." },
     { year: "2025", title: "Innovation", desc: "Launched our proprietary eco-friendly chemical line for sustainable facade restoration." },
@@ -277,7 +277,7 @@ export const AboutPage = () => {
               transition={{ delay: 0.2 }}
               className="text-xl text-ink/50 max-w-2xl mx-auto"
             >
-              Meet the visionaries driving excellence at Beyond Heights.
+              Meet the visionaries driving excellence at Beyond Heights Tech Ltd.
             </motion.p>
           </div>
 

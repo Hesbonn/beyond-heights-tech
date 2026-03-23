@@ -41,7 +41,7 @@ export const Vision = () => {
               <span className="text-ink/40">Vertical Access</span>
             </h2>
             <p className="text-xl text-ink/60 leading-relaxed mb-12">
-              Beyond Heights Tech is a professional service provider specializing in external window cleaning, 
+              Beyond Heights Tech Ltd is a professional service provider specializing in external window cleaning, 
               fumigation, and comprehensive height-related access solutions. We enhance safety, hygiene, 
               and the overall appearance of buildings while addressing unique operational challenges.
             </p>

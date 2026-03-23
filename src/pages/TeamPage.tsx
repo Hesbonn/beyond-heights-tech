@@ -20,7 +20,7 @@ export const TeamPage = () => {
       name: "Bernard Naiyani",
       role: "Technical Director",
       image: "/assets/CEO of beyond heights.jpeg",
-      bio: "A global leader in high-access safety. From the cliffs of Laikipia to professional arenas in Kuwait, Bernard combines international rock climbing mastery with elite safety credentials (NEBOSH & OSH Diploma). He ensures every project at Beyond Heights meets world-class standards in rope access and occupational health.",
+      bio: "A global leader in high-access safety. From the cliffs of Laikipia to professional arenas in Kuwait, Bernard combines international rock climbing mastery with elite safety credentials (NEBOSH & OSH Diploma). He ensures every project at Beyond Heights Tech Ltd meets world-class standards in rope access and occupational health.",
       specialty: "Strategic Planning"
     },
     {

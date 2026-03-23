@@ -104,7 +104,7 @@ export const Footer = () => {
               alt="Your Company Name"
               className="w-8 h-8 object-contain transition-colors rounded-lg duration-700"
             />
-            <span className="font-bold tracking-tighter">BEYOND HEIGHTS</span>
+            <span className="font-bold tracking-tighter">BEYOND HEIGHTS TECH LTD</span>
           </div>
           <p className="text-ink/30 text-sm">
             © {new Date().getFullYear()} Designed by Hesbon Onyango Nyamweya. All rights reserved.
@@ -112,7 +112,10 @@ export const Footer = () => {
           <div className="flex gap-8 text-sm text-ink/50">
             <a href="#" className="hover:text-ink transition-colors">Privacy</a>
             <a href="#" className="hover:text-ink transition-colors">Terms</a>
-            <a href="#" className="hover:text-ink transition-colors">LinkedIn</a>
+            <a href="https://www.linkedin.com/company/beyond-heights-tech-limited/" className="hover:text-ink transition-colors">LinkedIn</a>
+            <a href="https://www.instagram.com/beyond_heights_consultancy_?igsh=MTVlamhocnJ2dTd6OQ==" className="hover:text-ink transition-colors">Instagram</a>
+            <a href="https://www.tiktok.com/@beyond.heights.tech?_r=1&_t=ZS-94DMQTY0WZR" className="hover:text-ink transition-colors">Tiktok</a>
+            <a href="https://www.facebook.com/share/17eQWstTQo/" className="hover:text-ink transition-colors">Facebook</a>
           </div>
         </div>
       </div>
