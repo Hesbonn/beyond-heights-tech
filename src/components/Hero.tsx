@@ -64,7 +64,7 @@ export const Hero = () => {
               transition={{ delay: 0.5, duration: 1 }}
               className="italic font-light"
             >
-              Beyond Heights Tech Ltd
+              Beyond Heights
             </motion.span>
           </h1>
           

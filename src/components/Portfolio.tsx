@@ -68,14 +68,14 @@ export const Portfolio = () => {
             <div className="flex gap-20 animate-marquee whitespace-nowrap py-4">
               {[1, 2, 3, 4, 5, 6].map((i) => (
                 <div key={i} className="text-4xl font-bold opacity-20 hover:opacity-100 transition-opacity cursor-default">
-                  {i % 2 === 0 ? "BEYOND HEIGHTS" : "VERTICAL TECH"}
+                  {i % 2 === 0 ? "BEYOND HEIGHTS" : "TECH LTD"}
                 </div>
               ))}
             </div>
             <div className="flex gap-20 animate-marquee whitespace-nowrap py-4" aria-hidden="true">
               {[1, 2, 3, 4, 5, 6].map((i) => (
                 <div key={i} className="text-4xl font-bold opacity-20 hover:opacity-100 transition-opacity cursor-default">
-                  {i % 2 === 0 ? "BEYOND HEIGHTS" : "VERTICAL TECH"}
+                  {i % 2 === 0 ? "BEYOND HEIGHTS" : "TECH LTD"}
                 </div>
               ))}
             </div>

@@ -104,7 +104,7 @@ export const Footer = () => {
               alt="Your Company Name"
               className="w-8 h-8 object-contain transition-colors rounded-lg duration-700"
             />
-            <span className="font-bold tracking-tighter">BEYOND HEIGHTS TECH LTD</span>
+            <span className="font-bold tracking-tighter">BEYOND HEIGHTS</span>
           </div>
           <p className="text-ink/30 text-sm">
             © {new Date().getFullYear()} Designed by Hesbon Onyango Nyamweya. All rights reserved.
