@@ -13,8 +13,19 @@ export const TeamPage = () => {
       name: "Eunice Mashaiti",
       role: "Founder & Operations Director",
       image: "/assets/Eunice Mashaiti.jpeg",
-      bio: "A visionary leader with over a decade of experience in specialized building maintenance and high-access solutions.",
+      bio: "A visionary leader with over a decade of experience in specialized building maintenance and high-access solutions. She is a seasoned operations expert with 15+ years in hospitality and safety leadership. Eunice co-founded Beyond Heights in 2025, bringing unparalleled mastery to risk assessment, site inspections, and rescue planning.",
       specialty: "Strategic Leadership"
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        email: "eunice@beyondheights.com"
+    },
+    details: {
+      experience: "12 years in hotel operations (F&B, Front Office, Housekeeping, Training).",
+      certifications: "International work at Height (OSHA compliant), Rope Access Level 1 & 2.",
+      education: "Bsc. Hospitality Management (Strathmore), Diploma in Hotel Management (Utalii).",
+      membership: "Tourism Professional Association (TPA)"
+    }
     },
     {
       name: "Bernard Naiyani",
@@ -24,7 +35,7 @@ export const TeamPage = () => {
       specialty: "Strategic Planning"
     },
     {
-      name: "Elena Rodriguez",
+      name: "Nicholas Kaparo",
       role: "Head of Operations",
       image: "/assets/CEO of beyond heights.jpeg",
       bio: "Expert in logistics and large-scale project management for commercial properties.",
