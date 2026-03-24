@@ -106,9 +106,7 @@ export const Footer = () => {
             />
             <span className="font-bold tracking-tighter">BEYOND HEIGHTS</span>
           </div>
-          <p className="text-ink/30 text-sm">
-            © {new Date().getFullYear()} Designed by Hesbon Onyango Nyamweya. All rights reserved.
-          </p>
+          
           <div className="flex gap-8 text-sm text-ink/50">
             <a href="#" className="hover:text-ink transition-colors">Privacy</a>
             <a href="#" className="hover:text-ink transition-colors">Terms</a>
@@ -117,6 +115,10 @@ export const Footer = () => {
             <a href="https://www.tiktok.com/@beyond.heights.tech?_r=1&_t=ZS-94DMQTY0WZR" className="hover:text-ink transition-colors">Tiktok</a>
             <a href="https://www.facebook.com/share/17eQWstTQo/" className="hover:text-ink transition-colors">Facebook</a>
           </div>
+
+          <p className="text-ink/30 text-sm">
+            © {new Date().getFullYear()} Designed by Hesbon Onyango Nyamweya. All rights reserved.
+          </p>
         </div>
       </div>
 
