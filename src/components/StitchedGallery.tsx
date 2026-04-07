@@ -19,7 +19,7 @@ export const StitchedGallery = () => {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-8xl font-bold text-gradient leading-none"
           >
-            Stitched Excellence.
+            Crafted for the long haul.
           </motion.h2>
         </div>
 
@@ -53,9 +53,9 @@ export const StitchedGallery = () => {
           {/* Column 3 */}
           <div className="md:col-span-5 space-y-32">
             <div className="pr-12 text-right">
-              <h3 className="text-3xl font-bold mb-4 italic">Elevated Standards.</h3>
+              <h3 className="text-3xl font-bold mb-4 italic">Safety is the standard.</h3>
               <p className="text-ink/40 max-w-sm ml-auto">
-                Safety is the thread that runs through everything we do. From rope access to specialized chemical engineering.
+                Safety guides every decision we make. From rope access to chemical handling, we keep the team and the site protected.
               </p>
             </div>
             <StitchedImage 

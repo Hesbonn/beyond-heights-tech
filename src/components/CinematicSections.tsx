@@ -17,12 +17,12 @@ export const CinematicSections = () => {
         />
         <div className="container mx-auto px-6 text-center -mt-[5vw] relative z-10">
           <MaskedReveal>
-            <h2 className="text-5xl md:text-8xl font-bold mb-8">Engineering the Future.</h2>
+            <h2 className="text-5xl md:text-8xl font-bold mb-8">Built for real buildings.</h2>
           </MaskedReveal>
           <ScrollRevealText 
-            text="We don't just maintain buildings; we preserve the architectural legacy of our cities through innovation and excellence."
+            text="We don't just maintain buildings; we keep them safe, clean, and ready for the people who use them every day."
             className="text-2xl md:text-3xl text-ink/40 max-w-4xl mx-auto justify-center"
-            highlightWords={["innovation", "excellence", "legacy"]}
+            highlightWords={["safe", "clean", "ready"]}
           />
         </div>
         <KineticText 
@@ -33,14 +33,14 @@ export const CinematicSections = () => {
 
       {/* Storytelling Sections */}
       <PinnedStorySection 
-        title="Elegance in Motion"
-        content="We believe that building maintenance is a performance. Every rope descent, every chemical application, and every structural seal is executed with the grace and precision of a master craftsman. Our innovation drives us to reach new heights of excellence."
+        title="Care in every job"
+        content="Building maintenance is about reliable execution. Every rope descent, chemical application, and seal repair is done by experienced crews who know the work and understand the risks."
         image="/assets/kenya-service-4-window-detail.jpg"
       />
 
       <PinnedStorySection 
-        title="Nurturing Connection"
-        content="Our relationships with clients are built on the same foundation as the buildings we maintain: integrity, transparency, and a long-term vision for excellence. We are committed to securing the future of your infrastructure."
+        title="Straightforward service"
+        content="Our clients see us as partners because we communicate clearly, keep promises, and focus on practical solutions that keep buildings working."
         image="/assets/BH-Team.jpg"
         reverse
       />
@@ -52,9 +52,9 @@ export const CinematicSections = () => {
             <span className="text-brand-electric font-mono text-xs tracking-[0.4em] uppercase">The Beyond Heights Standard</span>
           </MaskedReveal>
           <ScrollRevealText 
-            text="Uncompromising safety. Unparalleled precision. Unmatched results."
+            text="Clear safety practices. Steady execution. Results you can trust."
             className="text-4xl md:text-7xl font-bold justify-center"
-            highlightWords={["safety", "precision", "results"]}
+            highlightWords={["safety", "execution", "trust"]}
           />
         </div>
         <div className="absolute inset-0 flex items-center justify-center opacity-10 pointer-events-none">

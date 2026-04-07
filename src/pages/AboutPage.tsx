@@ -13,25 +13,25 @@ export const AboutPage = () => {
     {
       icon: <ShieldCheck size={28} />,
       title: "Certified Expertise",
-      desc: "All personnel are certified and trained in the latest safety standards and industry best practices.",
+      desc: "Our team is certified and trained in high-access work and safety procedures.",
       image: "/assets/Team geared.jpeg"
     },
     {
       icon: <Zap size={28} />,
-      title: "Modern Equipment",
-      desc: "We invest in state-of-the-art equipment and approved chemicals to deliver superior results.",
+      title: "Reliable Equipment",
+      desc: "We use proven tools and approved cleaning products that work without damaging the building.",
       image: "/assets/BH-equipment-setup.jpg"
     },
     {
       icon: <TrendingUp size={28} />,
-      title: "Proven Track Record",
-      desc: "Trusted by major institutions, property managers, and building owners across Kenya.",
+      title: "Trusted by Clients",
+      desc: "Property managers, estates, and facility teams across Kenya rely on our steady, professional service.",
       image: "/assets/training.jpeg"
     },
     {
       icon: <ShieldCheck size={28} />,
       title: "Safety Compliance",
-      desc: "Strict adherence to occupational health and safety standards in all operations.",
+      desc: "Every project follows the safety rules required for working at height and with chemicals.",
       image: "/assets/BH-team-safety.jpg"
     },
     {
@@ -56,13 +56,13 @@ export const AboutPage = () => {
     },
     {
       icon: <Award className="text-brand-electric" size={32} />,
-      title: "PROFESSIONAL EXELLENCE",
-      desc: "Well-trained, certified, and uniformed staff, equipped with modern tools and industry-approved methods, ensuring consistent, high-quality service delivery."
+      title: "PROFESSIONAL EXCELLENCE",
+      desc: "Well-trained, certified, and uniformed staff, equipped with the right tools and methods to deliver consistent, high-quality service."
     },
     {
       icon: <Users className="text-brand-electric" size={32} />,
-      title: "INNOVATION AND EFFICIENCY",
-      desc: "Smart, tailored solutions for high-rise and hard-to-reach areas (including rope access, lifts, and scaffolding), combined with efficient service methods designed to minimize disruption to clients."
+      title: "PRACTICAL SOLUTIONS",
+      desc: "Tailored plans for high-rise and hard-to-reach areas, combined with work methods that minimize disruption to the people who use the building."
     },
     {
       icon: <Heart className="text-brand-electric" size={32} />,
@@ -75,7 +75,7 @@ export const AboutPage = () => {
     { year: "2020", title: "The Beginning", desc: "Beyond Heights Tech Ltd was founded with a single van and a vision to redefine high-access maintenance." },
     { year: "2021", title: "Expansion", desc: "We introduced specialized fumigation and industrial cleaning services to our portfolio." },
     { year: "2022", title: "Certification", desc: "Achieved full IRATA certification, setting a new benchmark for safety in the region." },
-    { year: "2025", title: "Innovation", desc: "Launched our proprietary eco-friendly chemical line for sustainable facade restoration." },
+    { year: "2025", title: "Sustainability", desc: "Launched a locally developed eco-friendly cleaner line for more durable facade restoration." },
     { year: "2026", title: "Market Leader", desc: "Now serving over 50 commercial properties across the country." }
   ];
 
@@ -84,7 +84,7 @@ export const AboutPage = () => {
       name: "Eunice Mashaiti",
       role: "Founder & Operations Director",
       image: "/assets/Eunice Mashaiti.jpeg", 
-      bio: "A visionary leader with over a decade of experience in specialized building maintenance and high-access solutions."
+      bio: "An experienced leader with more than a decade of work in specialized building maintenance and high-access solutions."
     }
   ];
 
@@ -119,9 +119,7 @@ export const AboutPage = () => {
               transition={{ delay: 0.2 }}
               className="text-2xl text-ink/60 leading-relaxed"
             >
-              We are a team of specialized engineers, technicians, and visionaries dedicated to 
-              preserving and maintaining the modern skyline. Our expertise spans from the 
-              depths of structural waterproofing to the peaks of high-rise facade engineering.
+              We are a team of certified technicians and maintenance specialists focused on keeping buildings in Nairobi and beyond safe and clean. Our work ranges from structural waterproofing to high-rise facade repairs.
             </motion.p>
             <div className="relative rounded-[3rem] overflow-hidden aspect-video glass">
               <img 
@@ -147,10 +145,7 @@ export const AboutPage = () => {
               <Eye className="text-brand-electric" /> Our Vision
             </h2>
             <p className="text-xl text-ink/50 leading-relaxed">
-              To be a trusted service provider recognized
-                for certified competence, operational
-                excellence, and measurable results
-
+              To be the trusted maintenance partner for buildings that need careful, certified attention.
             </p>
           </motion.div>
 
@@ -165,10 +160,7 @@ export const AboutPage = () => {
               <Target className="text-brand-electric" /> Our Mission
             </h2>
             <p className="text-xl text-ink/50 leading-relaxed">
-              To deliver professional exterior and interior building cleaning
-              solutions and fumigation services through certified expertise,
-              ensuring safe, clean, and pest-free environments for our
-              clients.
+              To deliver practical cleaning, repair, and pest control services through trained teams and clear communication.
             </p>
           </motion.div>
         </div>
@@ -213,7 +205,7 @@ export const AboutPage = () => {
               transition={{ delay: 0.2 }}
               className="text-xl text-ink/50 max-w-2xl mx-auto"
             >
-              We combine expertise, professionalism, and commitment to excellence.
+              We combine experience, practicality, and dependable service.
             </motion.p>
           </div>
           

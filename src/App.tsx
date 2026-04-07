@@ -13,6 +13,10 @@ import { ContactPage } from './pages/ContactPage';
 import { TeamPage } from './pages/TeamPage';
 import { PortfolioPage } from './pages/PortfolioPage';
 import { FAQPage } from './pages/FAQPage';
+import { BlogPage } from './pages/BlogPage';
+import { BlogPostDetail } from './pages/BlogPostDetail';
+
+
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -54,6 +58,8 @@ function AppContent() {
             <Route path="/team" element={<TeamPage />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/faq" element={<FAQPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog/:id" element={<BlogPostDetail />} />
           </Routes>
         </AnimatePresence>
       </main>

@@ -3,6 +3,7 @@ import { motion, useScroll, useTransform } from 'motion/react';
 import { DiagonalCard } from './DiagonalCard';
 
 interface ServicePillarProps {
+  id: string;
   title: string;
   desc: string;
   icon: React.ReactNode;
@@ -14,6 +15,7 @@ interface ServicePillarProps {
 }
 
 export const ServicePillar: React.FC<ServicePillarProps> = ({
+  id,
   title,
   desc,
   icon,
@@ -40,6 +42,7 @@ export const ServicePillar: React.FC<ServicePillarProps> = ({
       className={`relative ${marginTop} mb-20 md:mb-0`}
     >
       <DiagonalCard
+        id={id}
         title={title}
         description={desc}
         image={mainImage}

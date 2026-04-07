@@ -23,6 +23,7 @@ export const Navbar = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
+    { name: 'Blog', href: '/blog' },
     { name: 'Portfolio', href: '/portfolio' },
     { name: 'Team', href: '/team' },
     { name: 'Contact', href: '/contact' },
@@ -56,11 +57,11 @@ export const Navbar = () => {
           to="/"
           className="text-2xl font-bold tracking-tighter flex items-center gap-2"
         >
-          <div className="w-4 h-4 bg-ink flex items-center justify-center transition-colors duration-700">
+          <div className="w-12 h-12 bg-ink flex items-center justify-center rounded-full transition-colors duration-700">
             <img
               src="/assets/BH-logo.png"           
               alt="Your Company Name"
-              className="w-8 h-8 object-contain transition-colors rounded-sm duration-700"  
+              className="w-10 h-10 object-contain rounded-full transition-colors duration-700"  
             />
           </div>
           <span className="hidden sm:inline">BEYOND HEIGHTS</span>
@@ -68,14 +69,16 @@ export const Navbar = () => {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
-          <div className="glass px-6 py-2 rounded-full flex gap-8">
+          <div className="glass px-6 py-2 rounded-full flex gap-3 bg-white/10 border-white/25">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 to={link.href}
                 onClick={() => handleLinkClick(link.href)}
-                className={`text-sm font-medium transition-colors ${
-                  location.pathname === link.href ? 'text-brand-electric' : 'hover:text-brand-electric'
+                className={`text-sm font-medium px-4 py-2 rounded-full transition-all duration-200 ${
+                  location.pathname === link.href
+                    ? 'bg-white/30 text-brand-electric shadow-lg shadow-brand-electric/30'
+                    : 'text-white/85 hover:text-brand-electric hover:bg-white/20'
                 }`}
               >
                 {link.name}

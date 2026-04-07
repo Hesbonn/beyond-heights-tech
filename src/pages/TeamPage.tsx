@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Footer } from '../components/Footer';
-import { Linkedin, Twitter, Mail, Award, Shield, Zap } from 'lucide-react';
+import { Linkedin, Twitter, Mail, Award, Shield, Zap, Phone } from 'lucide-react';
 
 export const TeamPage = () => {
   useEffect(() => {
@@ -11,25 +11,39 @@ export const TeamPage = () => {
   const team = [
     {
       name: "Eunice Mashaiti",
-      role: "Founder & Operations Director",
+      role: "Co-Founder and Operations Director",
       image: "/assets/Eunice Mashaiti.jpeg",
       bio: "A visionary leader with over a decade of experience in specialized building maintenance and high-access solutions. She is a seasoned operations expert with 15+ years in hospitality and safety leadership. Eunice co-founded Beyond Heights in 2025, bringing unparalleled mastery to risk assessment, site inspections, and rescue planning.",
-      specialty: "Strategic Leadership"
-      
+      specialty: "Strategic Leadership",
+      email: "eunice.mashaiti@beyondheights.co.ke",
+      phone: "+254 715-638 324",
+      linkedin: "https://linkedin.com/in/eunice-mashaiti",
+      certifications: ["IRATA Level 2", "Safety Management", "Operations Excellence"],
+      experience: "15+ years"
     },
     {
       name: "Bernard Naiyani",
-      role: "Technical Director",
+      role: "Co-Founder and Technical Director",
       image: "/assets/CEO of beyond heights.jpeg",
       bio: "A global leader in high-access safety. From the cliffs of Laikipia to professional arenas in Kuwait, Bernard combines international rock climbing mastery with elite safety credentials (NEBOSH & OSH Diploma). He ensures every project at Beyond Heights Tech Ltd meets world-class standards in rope access and occupational health.",
-      specialty: "Strategic Planning"
+      specialty: "Technical Excellence",
+      email: "bernard.naiyani@beyondheights.co.ke",
+      phone: "+254 711 904 053",
+      linkedin: "https://linkedin.com/in/bernard-naiyani",
+      certifications: ["NEBOSH Diploma", "OSH Management", "Rock Climbing Instructor"],
+      experience: "12+ years"
     },
     {
       name: "Nicholas Kaparo",
-      role: "Head of Operations",
+      role: "Senior Rope Access Specialist",
       image: "/assets/Nicholas-Kaparo.png",
-      bio: "Expert in logistics and large-scale project management for commercial properties.",
-      specialty: "Operational Excellence"
+      bio: "Climbing wall instructor with 3 years experience. He is responsible for installing external cladding on high-rise projects, working on scaffolding over 20 meters high. He ensures that all scaffolding are secured and utilized full body harness fall-arrest systems. He has maintained a 100% incident-free record over 3 years.",
+      specialty: "Rope Access Operations",
+      email: "nicholas.kaparo@beyondheights.co.ke",
+      phone: "+254 720 123 456",
+      linkedin: "https://linkedin.com/in/nicholas-kaparo",
+      certifications: [ "Scaffolding Supervisor", "Fall Protection"],
+      experience: "3+ years"
     },
     
   ];
@@ -72,10 +86,10 @@ export const TeamPage = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-32">
           {[
-            { label: "Engineers", value: "5+", icon: <Zap size={20} /> },
-            { label: "Certifications", value: "15", icon: <Award size={20} /> },
+            { label: "Team Members", value: "6", icon: <Zap size={20} /> },
+            { label: "Certifications", value: "25+", icon: <Award size={20} /> },
             { label: "Safety Rating", value: "100%", icon: <Shield size={20} /> },
-            { label: "Projects", value: "100+", icon: <Zap size={20} /> }
+            { label: "Combined Experience", value: "55+", icon: <Zap size={20} /> }
           ].map((stat, idx) => (
             <motion.div 
               key={stat.label}
@@ -117,14 +131,19 @@ export const TeamPage = () => {
                 
                 {/* Socials Overlay */}
                 <div className="absolute bottom-6 left-6 right-6 flex gap-3 translate-y-12 group-hover:translate-y-0 transition-transform duration-500">
-                  <div className="w-10 h-10 glass rounded-full flex items-center justify-center hover:text-brand-electric transition-colors cursor-pointer">
-                    <Linkedin size={18} />
-                  </div>
+                  <a href={`mailto:${member.email}`} className="w-10 h-10 glass rounded-full flex items-center justify-center hover:text-brand-electric transition-colors cursor-pointer">
+                    <Mail size={18} />
+                  </a>
+                  <a href={`tel:${member.phone}`} className="w-10 h-10 glass rounded-full flex items-center justify-center hover:text-brand-electric transition-colors cursor-pointer">
+                    <Phone size={18} />
+                  </a>
+                  {member.linkedin && (
+                    <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="w-10 h-10 glass rounded-full flex items-center justify-center hover:text-brand-electric transition-colors cursor-pointer">
+                      <Linkedin size={18} />
+                    </a>
+                  )}
                   <div className="w-10 h-10 glass rounded-full flex items-center justify-center hover:text-brand-electric transition-colors cursor-pointer">
                     <Twitter size={18} />
-                  </div>
-                  <div className="w-10 h-10 glass rounded-full flex items-center justify-center hover:text-brand-electric transition-colors cursor-pointer">
-                    <Mail size={18} />
                   </div>
                 </div>
               </div>
@@ -134,10 +153,40 @@ export const TeamPage = () => {
                   {member.specialty}
                 </div>
                 <h3 className="text-2xl font-bold mb-1">{member.name}</h3>
-                <p className="text-ink/60 mb-4 font-medium">{member.role}</p>
-                <p className="text-ink/40 text-sm leading-relaxed">
+                <p className="text-ink/60 mb-2 font-medium">{member.role}</p>
+                <p className="text-brand-electric text-sm font-semibold mb-4">{member.experience} Experience</p>
+
+                <p className="text-ink/40 text-sm leading-relaxed mb-4">
                   {member.bio}
                 </p>
+
+                {/* Certifications */}
+                <div className="mb-4">
+                  <h4 className="text-sm font-semibold text-ink/80 mb-2">Certifications:</h4>
+                  <div className="flex flex-wrap gap-1">
+                    {member.certifications.map((cert, idx) => (
+                      <span key={idx} className="text-xs bg-brand-electric/10 text-brand-electric px-2 py-1 rounded-full">
+                        {cert}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Contact Info */}
+                <div className="space-y-2 text-sm">
+                  <div className="flex items-center gap-2 text-ink/60">
+                    <Mail size={14} />
+                    <a href={`mailto:${member.email}`} className="hover:text-brand-electric transition-colors">
+                      {member.email}
+                    </a>
+                  </div>
+                  <div className="flex items-center gap-2 text-ink/60">
+                    <Phone size={14} />
+                    <a href={`tel:${member.phone}`} className="hover:text-brand-electric transition-colors">
+                      {member.phone}
+                    </a>
+                  </div>
+                </div>
               </div>
             </motion.div>
           ))}

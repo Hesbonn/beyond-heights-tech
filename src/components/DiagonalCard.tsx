@@ -1,7 +1,9 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 
 interface DiagonalCardProps {
+  id?: string;
   title: string;
   description: string;
   image: string;
@@ -10,8 +12,8 @@ interface DiagonalCardProps {
   tags?: string[];
 }
 
-export const DiagonalCard: React.FC<DiagonalCardProps> = ({ title, description, image, icon, className, tags }) => {
-  return (
+export const DiagonalCard: React.FC<DiagonalCardProps> = ({ id, title, description, image, icon, className, tags }) => {
+  const CardContent = () => (
     <motion.div 
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -67,4 +69,14 @@ export const DiagonalCard: React.FC<DiagonalCardProps> = ({ title, description, 
       <div className="absolute inset-0 border-2 border-brand-electric/0 group-hover:border-brand-electric/20 rounded-[2.5rem] transition-colors duration-700 pointer-events-none" />
     </motion.div>
   );
+
+  if (id) {
+    return (
+      <Link to={`/services/${id}`}>
+        <CardContent />
+      </Link>
+    );
+  }
+
+  return <CardContent />;
 };

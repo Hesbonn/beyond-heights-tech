@@ -14,6 +14,7 @@ export const Services = () => {
 
   const services = [
     {
+      id: "window-cleaning",
       title: "High-Level Cleaning",
       desc: "Expert façade and cladding cleaning using industry-approved equipment and safe access techniques. We restore the architectural brilliance of your structure.",
       icon: <Wind size={28} />,
@@ -23,6 +24,7 @@ export const Services = () => {
       direction: 'left' as const
     },
     {
+      id: "fumigation",
       title: "Fumigation Services",
       desc: "Comprehensive pest control solutions using approved chemicals to ensure safe and hygienic environments for commercial and residential spaces.",
       icon: <Bug size={28} />,
@@ -32,6 +34,7 @@ export const Services = () => {
       direction: 'right' as const
     },
     {
+      id: "height-access",
       title: "Height Access Solutions",
       desc: "Smart solutions for hard-to-reach areas including rope access, specialized lifts, and scaffolding. Safety is our primary thread.",
       icon: <ArrowUpCircle size={28} />,
@@ -41,6 +44,7 @@ export const Services = () => {
       direction: 'top' as const
     },
     {
+      id: "gutter-cleaning",
       title: "Facility Maintenance",
       desc: "Ongoing maintenance for lift shafts and specialized building components to ensure operational efficiency and structural longevity.",
       icon: <Building2 size={28} />,

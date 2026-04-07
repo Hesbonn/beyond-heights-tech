@@ -16,8 +16,8 @@ const moods: Record<Mood, Record<string, string>> = {
     '--text-primary': '#FFFFFF',
     '--text-secondary': 'rgba(255, 255, 255, 0.6)',
     '--text-muted': 'rgba(255, 255, 255, 0.2)',
-    '--glass-bg': 'rgba(255, 255, 255, 0.05)',
-    '--glass-border': 'rgba(255, 255, 255, 0.1)',
+    '--glass-bg': 'rgba(255, 255, 255, 0.15)',
+    '--glass-border': 'rgba(255, 255, 255, 0.2)',
     '--color-brand-electric': '#00E5FF',
   },
   midnight: {
@@ -26,8 +26,8 @@ const moods: Record<Mood, Record<string, string>> = {
     '--text-primary': '#F5F5F5',
     '--text-secondary': 'rgba(245, 245, 245, 0.7)',
     '--text-muted': 'rgba(245, 245, 245, 0.2)',
-    '--glass-bg': 'rgba(255, 255, 255, 0.03)',
-    '--glass-border': 'rgba(255, 255, 255, 0.08)',
+    '--glass-bg': 'rgba(255, 255, 255, 0.12)',
+    '--glass-border': 'rgba(255, 255, 255, 0.15)',
     '--color-brand-electric': '#D4AF37', // Gold accent
   },
   romantic: {
@@ -36,8 +36,8 @@ const moods: Record<Mood, Record<string, string>> = {
     '--text-primary': '#1A1A1A',
     '--text-secondary': 'rgba(26, 26, 26, 0.7)',
     '--text-muted': 'rgba(26, 26, 26, 0.1)',
-    '--glass-bg': 'rgba(0, 0, 0, 0.02)',
-    '--glass-border': 'rgba(0, 0, 0, 0.06)',
+    '--glass-bg': 'rgba(0, 0, 0, 0.08)',
+    '--glass-border': 'rgba(0, 0, 0, 0.12)',
     '--color-brand-electric': '#E91E63', // Pink/Romantic accent
   },
   sky: {
@@ -46,8 +46,8 @@ const moods: Record<Mood, Record<string, string>> = {
     '--text-primary': '#243B53',
     '--text-secondary': 'rgba(36, 59, 83, 0.7)',
     '--text-muted': 'rgba(36, 59, 83, 0.1)',
-    '--glass-bg': 'rgba(36, 59, 83, 0.03)',
-    '--glass-border': 'rgba(36, 59, 83, 0.08)',
+    '--glass-bg': 'rgba(36, 59, 83, 0.1)',
+    '--glass-border': 'rgba(36, 59, 83, 0.15)',
     '--color-brand-electric': '#2B6CB0', // Blue accent
   }
 };

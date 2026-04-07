@@ -32,7 +32,7 @@ export const ContactPage = () => {
     {
       icon: <Mail className="text-brand-electric" />,
       title: "Email Us",
-      details: "beyondheights632@gmail.com",
+      details: "info@beyondheightstech.co.ke",
       desc: "We respond within 24 hours"
     },
     {

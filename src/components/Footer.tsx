@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { Mail, Phone, MapPin, ArrowRight } from 'lucide-react';
+import { Mail, Phone, MapPin, ArrowRight, Facebook, Instagram, Linkedin } from 'lucide-react';
 
 export const Footer = () => {
   const contactInfo = [
     { icon: <Phone size={20} />, text: "+254 715-638 324", label: "Primary" },
-    { icon: <Mail size={20} />, text: "beyondheights632@gmail.com", label: "Email" },
+    { icon: <Phone size={20} />, text: "+254 711 904 053", label: "Secondary" },
+    { icon: <Mail size={20} />, text: "info@beyondheightstech.co.ke", label: "Email" },
     { icon: <MapPin size={20} />, text: "Sirikwa Business Centre, Nairobi CBD", label: "Location" }
   ];
 
@@ -96,24 +97,60 @@ export const Footer = () => {
           </motion.div>
         </div>
 
-        <div className="pt-12 border-t border-ink/5 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div className="pt-12 border-t border-ink/5 flex flex-col lg:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
-          
             <img
-              src="/assets/BH-logo.png"           // ← your file path (in public/ or imported from assets/)
-              alt="Your Company Name"
+              src="/assets/BH-logo.png"
+              alt="Beyond Heights Logo"
               className="w-8 h-8 object-contain transition-colors rounded-lg duration-700"
             />
             <span className="font-bold tracking-tighter">BEYOND HEIGHTS</span>
           </div>
-          
-          <div className="flex gap-8 text-sm text-ink/50">
-            <a href="#" className="hover:text-ink transition-colors">Privacy</a>
-            <a href="#" className="hover:text-ink transition-colors">Terms</a>
-            <a href="https://www.linkedin.com/company/beyond-heights-tech-limited/" className="hover:text-ink transition-colors">LinkedIn</a>
-            <a href="https://www.instagram.com/beyond_heights_consultancy_?igsh=MTVlamhocnJ2dTd6OQ==" className="hover:text-ink transition-colors">Instagram</a>
-            <a href="https://www.tiktok.com/@beyond.heights.tech?_r=1&_t=ZS-94DMQTY0WZR" className="hover:text-ink transition-colors">Tiktok</a>
-            <a href="https://www.facebook.com/share/17eQWstTQo/" className="hover:text-ink transition-colors">Facebook</a>
+
+          <div className="flex items-center gap-3">
+            <a href="#" className="text-sm text-ink/50 hover:text-brand-electric transition-colors">Privacy</a>
+            <a href="#" className="text-sm text-ink/50 hover:text-brand-electric transition-colors">Terms</a>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <a
+              href="https://www.facebook.com/share/17eQWstTQo/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="w-11 h-11 rounded-full flex items-center justify-center bg-[#1877F2] text-white shadow-lg hover:scale-105 transition-transform"
+            >
+              <Facebook size={18} />
+            </a>
+            <a
+              href="https://www.tiktok.com/@beyond.heights.tech?_r=1&_t=ZS-94DMQTY0WZR"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="TikTok"
+              className="w-11 h-11 rounded-full flex items-center justify-center bg-black text-white shadow-lg hover:scale-105 transition-transform"
+            >
+              <svg viewBox="0 0 32 32" className="w-5 h-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24.562 7.866h-2.27c-.193 0-.385-.01-.575-.03v8.318c0 2.73-2.233 4.949-4.96 4.949-2.726 0-4.96-2.219-4.96-4.95 0-2.73 2.233-4.95 4.96-4.95.39 0 .772.048 1.132.138v3.837c-.35-.084-.716-.13-1.092-.13-1.67 0-3.027 1.358-3.027 3.03 0 1.673 1.357 3.031 3.027 3.031 1.55 0 2.84-1.063 2.98-2.47.017-.15.03-.304.03-.459V9.256h2.27c.193 0 .387.01.576.03v-1.42c0-1.463 1.185-2.697 2.651-2.67V4.28a4.17 4.17 0 0 1-3.227-1.232 4.141 4.141 0 0 1-1.222-3.097h-1.97c.023 1.046.44 2.05 1.187 2.853.747.803 1.776 1.245 2.836 1.245V7.87Z" />
+              </svg>
+            </a>
+            <a
+              href="https://www.instagram.com/beyond_heights_consultancy_?igsh=MTVlamhocnJ2dTd6OQ=="
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="w-11 h-11 rounded-full flex items-center justify-center bg-gradient-to-br from-[#f58529] via-[#dd2a7b] to-[#515bd4] text-white shadow-lg hover:scale-105 transition-transform"
+            >
+              <Instagram size={18} />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/beyond-heights-tech-limited/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="w-11 h-11 rounded-full flex items-center justify-center bg-[#0A66C2] text-white shadow-lg hover:scale-105 transition-transform"
+            >
+              <Linkedin size={18} />
+            </a>
           </div>
         </div>
         <p className="text-ink/30 text-sm">
